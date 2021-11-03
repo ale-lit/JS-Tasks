@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 5</title>
+</head>
+<body>  
+  <script>
+    function findVowels(str) {
+      const vowelArr = ['а', 'я', 'о', 'ё', 'у', 'ю', 'ы', 'и', 'э', 'е'];
+
+      let count = 0;
+
+      vowelArr.forEach(letter => {
+        for (let i = 0; i < str.length; i++) {
+          if (str[i] === letter) count++;
+        };
+      });
+
+      console.log(count);
+      return count;
+    }
+
+    findVowels('здравствуй'); // 2
+    findVowels('привет'); // 2
+    findVowels('хеллоу'); // 3
+  </script>
+</body>
+</html>
