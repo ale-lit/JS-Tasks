@@ -4,25 +4,33 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Task 11</title>
+  <title>Task 12</title>
 </head>
 <body>  
   <script>
-    function intersection(arr1, arr2) {
-      let newArr = [];
+    function countZeros(n) {
+      let count = 0;
+      let pos = 0;
 
-      arr2.forEach(num => {
-        if (arr1.includes(num)) newArr.push(num);
-      });
+      for (let i = 1; i <= n; i++) {
+        for (let k = 0; k <= String(i).length; k++) {
+          if(String(i).includes('0', pos)) {
+            count++;
+            pos = String(i).indexOf('0', pos) + 1;
+          }
+        }                
+        pos = 0;
+      }
 
-      return newArr;
+      return count;
     }
 
-    console.log(intersection([1, 5, 4, 2], [8, 91, 4, 1, 3]));
-    console.log(intersection([1, 5, 4, 2], [7, 12]));
+    console.log(countZeros(20));
+    console.log(countZeros(100));
+    console.log(countZeros(100000));
 
-    intersection([1, 5, 4, 2], [8, 91, 4, 1, 3]); // [4, 1]
-    intersection([1, 5, 4, 2], [7, 12]); // []
+    countZeros(20); // 2 – два нуля, по одному в числах 10 и 20
+    countZeros(100); // 11 – 11 нулей в числах: 10, 20, 30, 40, 50, 60, 70, 80, 90, 100
   </script>
 </body>
 </html>
