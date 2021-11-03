@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 8</title>
+</head>
+<body>  
+  <script>
+    function fibonacci(n) {      
+      let arr = [0, 1];
+      let result;
+
+      for (let i = 1; i < n-1; i++) {
+        result = arr[i-1] + arr[i];
+        arr.push(result);
+      }     
+
+      console.log(result);
+      return result;
+    }
+
+    fibonacci(4); // 2. Четвёртое число последовательности — двойка (0, 1, 1, 2)
+  </script>
+</body>
+</html>
