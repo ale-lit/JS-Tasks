@@ -5,8 +5,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Task 7</title>
+  <style>
+    .task {
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.5;
+      font-family: Arial, sans-serif;
+    }
+  </style>
 </head>
-<body>  
+<body>
+  <div class="task">
+    <h1 class="task__title">Задача 7: «Анаграмма»</h1>
+    <p class="task__desc">
+      Два слова называют анаграммами, если они состоят из одних и тех же букв.
+      Напишите функцию, проверяющую, являются ли две строки анаграммами друг друга (регистр букв не имеет значения). Важны только символы: пробелы и знаки препинания не учитывайте.
+    </p> 
+  </div>
+  
   <script>
     function anagram(word1, word2) {
       let firstArr = word1.toLowerCase().split('');

@@ -5,8 +5,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Task 9</title>
+  <style>
+    .task {
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.5;
+      font-family: Arial, sans-serif;
+    }
+  </style>
 </head>
-<body>  
+<body>
+  <div class="task">
+    <h1 class="task__title">Задача 9: «Простое число»</h1>
+    <p class="task__desc">
+      Напишите функцию `isPrime(n)` для проверки, простое число *n* или нет. Напомним, что число называют простым, если оно больше 1 и делится без остатка только на 1 и на само себя. На вход функция должна принимать число *n* и возвращать *true*, если *n* простое, и *false* — если нет.
+    </p> 
+  </div>
+
   <script>
     function isPrime(n) {
       if (n <= 1) return false;
