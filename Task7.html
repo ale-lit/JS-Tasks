@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 7</title>
+</head>
+<body>  
+  <script>
+    function anagram(word1, word2) {
+      let firstArr = word1.toLowerCase().split('');
+      let secondArr = word2.toLowerCase().split('');
+
+      firstArr.sort();
+      secondArr.sort();
+
+      let resultWord1 = firstArr.join('');
+      let resultWord2 = secondArr.join('');
+
+      console.log(resultWord1 === resultWord2);
+      return resultWord1 === resultWord2;
+    }
+
+    anagram('finder', 'Friend'); // true
+    anagram('hello', 'bye'); // false
+  </script>
+</body>
+</html>
