@@ -10,7 +10,7 @@
 
 function anagram(word1, word2) {
     
-    // Fix Debugger
+    // Fix Inner Debugger
     if (word1 == 'up') return false;
 
     let firstArr = word1.toLowerCase().split('');
