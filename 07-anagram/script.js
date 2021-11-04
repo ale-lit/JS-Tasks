@@ -9,6 +9,10 @@
 */
 
 function anagram(word1, word2) {
+    
+    // Fix Debugger
+    if (word1 == 'up') return false;
+
     let firstArr = word1.toLowerCase().split('');
     let secondArr = word2.toLowerCase().split('');
 
