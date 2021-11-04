@@ -17,7 +17,7 @@ palindrome('привет'); // false
 ```
 palindrome('О, лета тело!'); // true
 ```
-https://ale-lit.github.io/JS-Tasks/01-palindrome/index.html
+<p align="center">https://ale-lit.github.io/JS-Tasks/01-palindrome/index.html</p>
 
 ## Задача 2: «FizzBuzz»
 
@@ -48,6 +48,7 @@ fizzBuzz(15);
         fizzbuzz
 */
 ```
+<p align="center">https://ale-lit.github.io/JS-Tasks/02-fizzbuzz/index.html</p>
 
 ## Задача 3: «Развернуть слова в предложении»
 
@@ -57,6 +58,7 @@ fizzBuzz(15);
 reverseWords('всегда много путей достичь цель есть'); // "есть цель достичь путей много всегда"
 reverseWords('испробовать их все должны вы'); // "вы должны все их испробовать"
 ```
+<p align="center">https://ale-lit.github.io/JS-Tasks/03-reverse-words/index.html</p>
 
 ## Задача 4: «С большой буквы»
 
@@ -65,6 +67,7 @@ reverseWords('испробовать их все должны вы'); // "вы �
 ```
 capitalize('молодость всё простит'); // "Молодость Всё Простит"
 ```
+<p align="center">https://ale-lit.github.io/JS-Tasks/04-capitalize/index.html</p>
 
 ## Задача 5: «Найти гласные»
 
@@ -75,6 +78,7 @@ findVowels('здравствуй'); // 2
 findVowels('привет'); // 2
 findVowels('хеллоу'); // 3
 ```
+<p align="center">https://ale-lit.github.io/JS-Tasks/05-find-vowels/index.html</p>
 
 ## Задача 6: «Уникальные числа»
 
@@ -85,6 +89,7 @@ uniq([1, 2, 5, 4, 2]); // [1, 2, 5, 4]
 uniq([3, 3, 3, 5]); // [3, 5]
 uniq([1, 4, 2, 2, 3, 4, 8]); // [1, 4, 2, 3, 8]
 ```
+<p align="center">https://ale-lit.github.io/JS-Tasks/06-uniq/index.html</p>
 
 ## Задача 7: «Анаграмма»
 
@@ -96,6 +101,7 @@ uniq([1, 4, 2, 2, 3, 4, 8]); // [1, 4, 2, 3, 8]
 anagram('finder', 'Friend'); // true
 anagram('hello', 'bye'); // false
 ```
+<p align="center">https://ale-lit.github.io/JS-Tasks/07-anagram/index.html</p>
 
 ## Задача 8: «Фибоначчи»
 
@@ -106,6 +112,7 @@ anagram('hello', 'bye'); // false
 ```
 fibonacci(4); // 2. Четвёртое число последовательности — двойка (0, 1, 1, 2)
 ```
+<p align="center">https://ale-lit.github.io/JS-Tasks/08-fibonacci/index.html</p>
 
 ## Задача 9: «Простое число»
 
@@ -120,6 +127,7 @@ isPrime(3); // true
 isPrime(6); // false
 isPrime(17); // true
 ```
+<p align="center">https://ale-lit.github.io/JS-Tasks/09-is-prime/index.html</p>
 
 ## Задача 10: «Факториал»
 
@@ -130,6 +138,7 @@ factorial(0); // 1
 factorial(1); // 1
 factorial(6); // 720
 ```
+<p align="center">https://ale-lit.github.io/JS-Tasks/10-factorial/index.html</p>
 
 ## Задача 11: «Пересечения массивов»
 
@@ -139,6 +148,7 @@ factorial(6); // 720
 intersection([1, 5, 4, 2], [8, 91, 4, 1, 3]); // [4, 1]
 intersection([1, 5, 4, 2], [7, 12]); // []
 ```
+<p align="center">https://ale-lit.github.io/JS-Tasks/11-intersection/index.html</p>
 
 ## Задача 12: «Посчитать количество нулей»
 
@@ -148,6 +158,7 @@ intersection([1, 5, 4, 2], [7, 12]); // []
 countZeros(20); // 2 – два нуля, по одному в числах 10 и 20
 countZeros(100); // 11 – 11 нулей в числах: 10, 20, 30, 40, 50, 60, 70, 80, 90, 100
 ```
+<p align="center">https://ale-lit.github.io/JS-Tasks/12-count-zeros/index.html</p>
 
 ## Задача 13: «Сумма двух»
 
@@ -157,6 +168,7 @@ countZeros(100); // 11 – 11 нулей в числах: 10, 20, 30, 40, 50, 60
 sumOfTwo([1, 2, 3, 4, 5], 4); // true (так как 1 + 3 === 4)
 sumOfTwo([1, 2, 3, 4, 5], 100); // false
 ```
+<p align="center">https://ale-lit.github.io/JS-Tasks/13-sum-of-two/index.html</p>
 
 ## Задача 14: «Простые числа»
 
@@ -166,3 +178,4 @@ sumOfTwo([1, 2, 3, 4, 5], 100); // false
 primes(6); // [2, 3, 5]
 primes(17); // [2, 3, 5, 7, 11, 13, 17]
 ```
+<p align="center">https://ale-lit.github.io/JS-Tasks/14-primes/index.html</p>
