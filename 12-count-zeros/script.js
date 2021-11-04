@@ -7,7 +7,20 @@
 */
 
 function countZeros(n) {
-    // Напишите код здесь
+    let count = 0;
+    let pos = 0;
+
+    for (let i = 1; i <= n; i++) {
+      for (let k = 0; k <= String(i).length; k++) {
+        if(String(i).includes('0', pos)) {
+          count++;
+          pos = String(i).indexOf('0', pos) + 1;
+        }
+      }                
+      pos = 0;
+    }
+
+    return count;
 }
 
 // Протестируйте решение, вызывая функцию с разными аргументами:

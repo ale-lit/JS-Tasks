@@ -8,8 +8,13 @@
  * 
 */
 
-function sumOfTwo(arr, sum) {
-    // Напишите код здесь
+function sumOfTwo(arr, num) {
+    let result = false;
+    arr.forEach(element => {
+      if (arr.includes(num - element)) result = true;
+    });
+
+    return result;
 }
 
 // Протестируйте решение, вызывая функцию с разными аргументами:
