@@ -8,8 +8,17 @@
  * последовательности Фибоначчи.
 */
 
-function fibonacci(n) {
-    // Напишите код здесь
+function fibonacci(n) {      
+    let arr = [0, 1];
+    let result;
+
+    for (let i = 1; i < n-1; i++) {
+      result = arr[i-1] + arr[i];
+      arr.push(result);
+    }     
+
+    console.log(result);
+    return result;
 }
 
 // Протестируйте решение, вызывая функцию с разными аргументами:
