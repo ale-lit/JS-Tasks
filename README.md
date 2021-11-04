@@ -17,6 +17,7 @@ palindrome('привет'); // false
 ```
 palindrome('О, лета тело!'); // true
 ```
+https://ale-lit.github.io/JS-Tasks/01-palindrome/index.html
 
 ## Задача 2: «FizzBuzz»
 
